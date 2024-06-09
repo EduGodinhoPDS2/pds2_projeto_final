@@ -8,16 +8,16 @@
 /// 
 /// Classe que representa um quarto de hotel
 /// </summary>
-class Hotel : public Produto { //hotel agora sera herdado do produto
+class Hotel : public Produto {
 	public:
-		Hotel(int id, float price, Location location, int qntd=1); // construtor inicializado com parametros
-		Hotel(); // construtor qual nao aceita argumentos
-		Location getLocation(); // retorno do quarto de hotel escolhido
-		int getQntd(); // retorna a qtdade de quartos de hotel escolhidos
-		void setQntd(int qntd); // definicao da qtade de quartos de hotel
+		Hotel(int id, float price, Location location, int qntd=1);
+		Hotel();
+		Location getLocation();
+		int getQntd();
+		void setQntd(int qntd);
 	private:
-		Location location; // aramezena a localizacao do quarto de hotel
-		int qntd; // armazena a qtdade de quartos de hotel escolhidos
+		Location location;
+		int qntd;
 };
 
 #endif // !HOTEL_HPP
