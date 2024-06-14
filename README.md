@@ -17,7 +17,7 @@ métodos.<br><br>
 <b>Levantamento de Requisitos</b><br><br>
 Requisitos Funcionais:<br>
 1. O sistema deve ser capaz de representar hotéis e passagens;<br>
-2. Cada porduto deve ter uma série de atributos descritivos;<br>
+2. Cada produto deve ter uma série de atributos descritivos;<br>
 3. O sistema deve permitir ao usuário reservar produtos no carrinho;<br>
 4. Deve ser possível remover itens do carrinho;<br><br>
 
