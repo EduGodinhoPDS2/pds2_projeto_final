@@ -44,7 +44,7 @@ void Cliente::addToCart(Hotel hotel) {
 
 /// <summary>
 /// 
-/// Imprime as informacoes do carrinho
+/// Imprime as informacoes do carrinho (passagens e quartos de hotel)
 /// </summary>
 /// <param name="productKind">: tipo de produto a ser impresso</param>
 void Cliente::dispCart(int productKind) {
@@ -54,7 +54,7 @@ void Cliente::dispCart(int productKind) {
 				std::cout << std::endl << "apresentando o carrinho de passagens de " << this->name << std::endl << std::endl;
 				for (Passagem ticket : this->ticketsCart) {
 					std::cout << "id: " << ticket.getId() << ";" << std::endl;
-					std::cout << "preço: $" << ticket.getPrice() << ";" << std::endl;
+					std::cout << "preÃ§o: $" << ticket.getPrice() << ";" << std::endl;
 					std::cout << "decolando de: " << ticket.getTakeOffLocation().city << ";" << std::endl;
 					std::cout << "pousando em: " << ticket.getLandingLocation().city << ";" << std::endl;
 					std::cout << "quantidade: " << ticket.getQntd() << ";" << std::endl << std::endl;
@@ -66,7 +66,7 @@ void Cliente::dispCart(int productKind) {
 				std::cout << std::endl << "apresentando o carrinho de quartos de hotel de " << this->name << std::endl << std::endl;
 				for (Hotel hotelRoom : this->hotelRoomsCart) {
 					std::cout << "id: " << hotelRoom.getId() << ";" << std::endl;
-					std::cout << "preço: $" << hotelRoom.getPrice() << ";" << std::endl;
+					std::cout << "preÃ§o: $" << hotelRoom.getPrice() << ";" << std::endl;
 					std::cout << "local: " << hotelRoom.getLocation().city << ";" << std::endl;
 					std::cout << "quantidade: " << hotelRoom.getQntd() << ";" << std::endl << std::endl;
 				}
@@ -108,7 +108,7 @@ void Cliente::removeFromCart() {
 
 /// <summary>
 /// 
-/// Finaliza a compra e limpa o carrinho
+/// Finaliza a compra, mostra um resumo dos itens do carrinho e limpa o carrinho
 /// </summary>
 void Cliente::checkOut() {
 	std::cout << std::endl << "voce escolheu fazer check-out (confirmar compra dos itens armazenados no carrinho)" << std::endl;
@@ -126,7 +126,7 @@ void Cliente::checkOut() {
 
 /// <summary>
 /// 
-/// Limpa o carrinho
+/// Limpa o carrinho inteiro
 /// </summary>
 void Cliente::clearCart() {
 	this->hotelRoomsCart.clear();
