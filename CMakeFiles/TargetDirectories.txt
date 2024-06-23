@@ -1,0 +1,4 @@
+C:/PDS/TrabalhoFinal/TrabalhoFinal/CMakeFiles/Cliente.hpp.dir
+C:/PDS/TrabalhoFinal/TrabalhoFinal/CMakeFiles/main.dir
+C:/PDS/TrabalhoFinal/TrabalhoFinal/CMakeFiles/ALL_BUILD.dir
+C:/PDS/TrabalhoFinal/TrabalhoFinal/CMakeFiles/ZERO_CHECK.dir

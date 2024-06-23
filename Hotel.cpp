@@ -19,13 +19,13 @@ Hotel::Hotel() {
 
 /// <summary>
 /// 
-/// Construtor completo 
+/// Construtor completo
 /// 
 /// </summary>
-/// <param name="id">: cÃ³digo de identificaÃ§Ã£o</param>
-/// <param name="price">: preÃ§o por noite</param>
-/// <param name="location">: localizaÃ§Ã£o</param>
-/// <param name="qntd">: nÃºmero de noites reservadas (default: 1)</param>
+/// <param name="id">: código de identificação</param>
+/// <param name="price">: preço por noite</param>
+/// <param name="location">: localização</param>
+/// <param name="qntd">: número de noites reservadas (default: 1)</param>
 Hotel::Hotel(int id, float price, Location location, int qntd) {
 	this->id = id;
 	this->price = price;
@@ -35,7 +35,7 @@ Hotel::Hotel(int id, float price, Location location, int qntd) {
 
 /// <summary>
 /// 
-/// Retorna a localizacao do hotel
+/// Retorna a localizacao
 /// </summary>
 /// <returns>Hotel::location</returns>
 Location Hotel::getLocation() {
@@ -53,7 +53,7 @@ int Hotel::getQntd() {
 
 /// <summary>
 /// 
-/// Altera o numero de noites reservadas para o hotel
+/// Altera o numero de noites reservadas
 /// </summary>
 /// <param name="qntd">: numero de noites reservadas</param>
 void Hotel::setQntd(int qntd) {
