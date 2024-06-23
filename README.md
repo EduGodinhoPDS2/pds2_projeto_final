@@ -23,4 +23,4 @@ Requisitos Não Funcionais:<br>
 3. O sistema deve ser robusto e capaz de lidar com erros ou situações excepcionais (Opcional).<br><br>
 
 Observações:<br>
-Mkaefile ainda não funciona. Falta melhorar os arquivos de documentação na pasta html. Para visualizar a documentação é necessário baixar a pasta html, descompactar e abrir o arquivo inde.html.<br><br>
+Makefile ainda não funciona. Falta melhorar os arquivos de documentação na pasta html. Para visualizar a documentação é necessário baixar a pasta html, descompactar e abrir o arquivo index.html. A classe cliente faz o ckeck-out, e não a classe Sistema, devido a complicações no acesso e modificação de variáveis.<br><br>
