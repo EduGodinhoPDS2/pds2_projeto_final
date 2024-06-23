@@ -15,6 +15,7 @@ Isso não apenas facilitará o processo de reserva para nossos clientes atuais, 
 e expandir nossa presença de forma significativa.<br>
 Estamos ansiosos para discutir essa oportunidade e trabalhar para criar uma solução tecnológica que alinhe com nossa visão de futuro.<br><br>
 
+Requisitos do Projeto<br>
 1. Passagens aéreas e hotéis:<br>
 O sistema deve ser capaz de representar os produtos e serviços presentes no catálogo da empresa, ou seja, as passagens aéreas e os quartos de hotel,<br>
 disponíveis para o cliente, aspecto que deve ser feito por meio de classes que incorporem conceitos de encapsulamento. Cada produto deve ter uma série<br>
