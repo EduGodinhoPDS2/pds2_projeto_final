@@ -22,6 +22,8 @@ Requisitos Não Funcionais:<br>
 2. O código deve ser bem organizado e seguir boas práticas de programação.<br>
 3. O sistema deve ser robusto e capaz de lidar com erros ou situações excepcionais (Opcional).<br><br>
 
+<b>Outras informações:</b><br><br>
+
 Para compilar:<br>
 g++ Main.cpp Hotel.cpp Passagem.cpp Produto.cpp Sistema.cpp Cliente.cpp -o Main<br><br>
 Para executar:<br>
