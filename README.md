@@ -20,4 +20,7 @@ Requisitos Funcionais:<br>
 Requisitos Não Funcionais:<br>
 1. O sistema deve ser fácil de usar e ter uma interface intuitiva.<br>
 2. O código deve ser bem organizado e seguir boas práticas de programação.<br>
-3. O sistema deve ser robusto e capaz de lidar com erros ou situações excepcionais (Opcional).<br>
+3. O sistema deve ser robusto e capaz de lidar com erros ou situações excepcionais (Opcional).<br><br>
+
+Observações:<br>
+Mkaefile ainda não funciona. Falta melhorar os arquivos de documentação na pasta html. Para visualizar a documentação é necessário baixar a pasta html, descompactar e abrir o arquivo inde.html.<br><br>
