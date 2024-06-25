@@ -1,0 +1,2 @@
+para fazer a build do projeto, acesse o terminal de comando e dentro desta pasta rode o comando cmake ..
+os arquivos e dependências necessários para rodar o programa serão gerados. para rodar abra o arquivo solução .sln ou equivalente e compile pela ide
