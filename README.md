@@ -30,4 +30,4 @@ Para executar:<br>
 Main<br><br>
 
 Observações:<br>
-Makefile ainda não funciona. Falta melhorar os arquivos de documentação na pasta html. Para visualizar a documentação é necessário baixar a pasta html, descompactar e abrir o arquivo index.html. A classe cliente faz o ckeck-out, e não a classe Sistema, devido a complicações no acesso e modificação de variáveis.<br><br>
+Para visualizar a documentação é necessário baixar a pasta html, descompactar e abrir o arquivo index.html. A classe cliente faz o ckeck-out, e não a classe Sistema, devido a complicações no acesso e modificação de variáveis.<br><br>
