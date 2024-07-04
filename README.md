@@ -24,8 +24,8 @@ Sempre que o usuário digitar uma entrada inválida, o programa deve informá-lo
 
 DiretorioPrincipal<br>
   - src: códigos fonte, arquivos auxiliares e cmake files<br>
-  - doc: documentação gerada pelo Doxygen. Arquivos html e css.<br>
-  - cartaoCRC<br><br>
+  - html: documentação gerada pelo Doxygen. Arquivos html e css.<br>
+  - crc_cards.png: cartão CRC<br><br>
 
 <b>Instruções de Uso</b><br>
   - Para compilar:<br>
