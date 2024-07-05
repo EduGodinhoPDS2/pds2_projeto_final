@@ -42,3 +42,6 @@ A classe cliente faz o ckeck-out, e não a classe Sistema, devido a complicaçõ
 A modelagem inicial foi descartada pois não permitia o acesso de certas classes aos métodos de outras, dificultando o desenvolvimento do projeto<br>
 Encontramos dificuldades para acessar e modificar elementos de estruturas de dados entre classes<br>
 Os arquivos cmake seguem regras diferentes, tivemos de aprender um pouco sobre as diferenças e gerar os arquivos num diretório diferente para melhorar a organização<br><br>
+
+<b>Extra: vídeo ilustrando o funcionamento do projeto</b><br><br>
+https://www.youtube.com/watch?v=pIGz5Dfl1yw<br>
