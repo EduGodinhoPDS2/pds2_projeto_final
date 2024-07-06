@@ -33,7 +33,7 @@ DiretorioPrincipal<br>
   g++ Main.cpp Hotel.cpp Passagem.cpp Produto.cpp Sistema.cpp Cliente.cpp -o Main<br><br>
   - Para construir o projeto com cmake:<br>
   ir para o diretório build-dir e rodar o comando: cmake ..<br>
-  abrir a pasta build-dir no explorador ou na linha de comando e rodar a solução ou executável gerado<br>
+  abrir a pasta build-dir no explorador ou na linha de comando e rodar a solução ou executável gerado<br><br>
   - Para acessar a documentação:<br>
   baixar a pasta html, descompactar e abrir o arquivo index.html. <br><br>
 
